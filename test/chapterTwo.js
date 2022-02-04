@@ -7,55 +7,50 @@
 // 3. Multiplication
 // 4. Division
 
+
 var assert = require('assert');
 
-describe('Mathematical Operations - Test Suite', function(){
+describe('Math Operations - Test Suite', function(){
 
-  it('Addition of two numbers', function(){
+    it('Addition test', function(){
 
-    var a = 10;
-    var b = 10;
+        var a = 10;
+        var b = 10;
 
-    var c = a+b;
+        var c = a+b;
 
-    assert.equal(c,20);
+        assert.equal(c,20);
 
-  });
+    });
 
-  it('Subtraction of two numbers', function(){
+    it('Subtraction test', function(){
 
-    var a = 10;
-    var b = 10;
+        var a = 10;
+        var b = 10;
 
-    var c = a-b;
+        var c = a - b;
 
-    assert.equal(c,0);
+        assert.equal(c,0);
+    });
 
+    it('Multiplication test', function(){
 
-  });
+        var a = 10;
+        var b = 10;
 
-  it('Multiplication of two numbers', function(){
+        var c = a * b;
 
-    var a = 10;
-    var b = 10;
+        assert.equal(c,100);
+    });
 
-    var c = a*b;
+    it('Division test', function(){
 
-    assert.equal(c,100);
+        var a = 10;
+        var b = 10;
 
+        var c = a/b;
 
-  });
-
-  it('Division of two numbers', function(){
-
-    var a = 10;
-    var b = 10;
-
-    var c = a/b;
-
-    assert.equal(c,0);
-
-
-  });
+        assert.equal(c,1);
+    });
 
 });
