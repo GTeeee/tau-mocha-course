@@ -19,7 +19,7 @@ describe('Math Operations - Test Suite', function(){
 
         var c = a+b;
 
-        assert.equal(c,20);
+        assert.equal(c,0);
 
     });
 
